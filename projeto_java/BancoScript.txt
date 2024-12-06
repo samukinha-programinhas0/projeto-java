@@ -1,0 +1,13 @@
+create database banco;
+
+use banco;
+
+CREATE TABLE `filmes` (
+  `ID` int(11) NOT NULL,
+  `Nome` varchar(200) NOT NULL,
+  `Genero` varchar(50) DEFAULT NULL,
+  `Diretor` varchar(50) DEFAULT NULL,
+  `faixaEtaria` varchar(5) DEFAULT NULL,
+  `Data` date DEFAULT NULL,
+  `Disponivel` varchar(3) NOT NULL
+);
