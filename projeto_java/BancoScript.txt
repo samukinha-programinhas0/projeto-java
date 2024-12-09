@@ -1,0 +1,13 @@
+create database banco;
+
+use banco;
+
+CREATE TABLE filmes (
+  id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  Nome varchar(200) NOT NULL,
+  Genero varchar(50),
+  Diretor varchar(50),
+  faixaEtaria varchar(5),
+  Data date,
+  Disponivel varchar(3) NOT NULL
+);
